@@ -21,3 +21,4 @@ test.txt
 vendor/
 .secret
 .DS_Store
+.vagrant
