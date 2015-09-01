@@ -1,5 +1,5 @@
-class Admin::TopController < ApplicationController
-  def index
-    render action: 'index'
-  end
+class Admin::TopController < Admin::Base
+    def index
+      render action: 'index'
+    end
 end
