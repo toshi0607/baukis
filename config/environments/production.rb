@@ -82,8 +82,8 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   config.baukis = {
-      staff: { host: 'baukis.example.com', path: '' },
-      admin: { host: 'baukis.example.com', path: 'admin' },
-      customer: { host: 'baukis.example.com', path: 'mypage' }
+    staff: { host: 'baukis.example.com', path: '' },
+    admin: { host: 'baukis.example.com', path: 'admin' },
+    customer: { host: 'baukis.example.com', path: 'mypage' }
   }
 end
