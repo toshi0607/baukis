@@ -18,24 +18,18 @@ div#wrapper {
             display: block;
             padding: $moderate 0;
           }
-          label:required:after {
+          label.required:after {
             content: '*';
             padding-left: $narrow;
             color: $red;
           }
-          input[type='checkbox'] + label {
-            display: inline-block
-          }
-          input[type='radio'] + label {
-            display: inline-block
-          }
+          input[type='checkbox']+label { display: inline-block }
+          input[type='radio']+label { display: inline-block }
         }
         div.notes {
           text-align: right;
           font-size: $small;
-          span.mark {
-            color: $red
-          }
+          span.mark { color: $red }
         }
         div.buttons {
           text-align: center;
